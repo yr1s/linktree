@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+/* icone da ariel*/
+.icon{
+    width:350px;
+	height:275px;
+	border:4px solid #BB99DD;
+	background: url(./images/arielicon.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 100px auto 5px;
+    
+    
+}
+
+/* caixa para os links*/
+.container{
+    list-style: none;
+   display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+/* links*/
+.item{
+    border: 2px solid #BB99DD;
+    margin: 5px;
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    line-height: 40px;
+    color: #BB99DD;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: #FAF7FD;
+}
+
+/*nome abaixo da foto*/
+p{
+    text-align: center;
+    margin: 15px auto 15px;
+   color: #BB99DD;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+/*redes sociais*/
+.social_medias{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 50px auto 100px;
+    
+    
+
+}
+    
+   
+      
+  
+
+
